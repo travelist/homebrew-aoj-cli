@@ -2,16 +2,16 @@
 class Aoj < Formula
   desc "A command-line tool for Aizu Online Judge (AOJ)"
   homepage "https://github.com/travelist/aoj-cli"
-  version "0.5.0"
+  version "0.5.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/travelist/aoj-cli/releases/download/v0.5.0/aoj-cli_0.5.0_macOS_amd64.tar.gz"
-    sha256 "73ded0a4bbff5c226d8695226980f9bf6f667267b918cfd7d2af94503822d091"
+    url "https://github.com/travelist/aoj-cli/releases/download/v0.5.1/aoj-cli_0.5.1_macOS_amd64.tar.gz"
+    sha256 "5c3978cd8a07ce3e6c3455c37bc11e7ab84952022971f0b5bd80b80c931b7d18"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/travelist/aoj-cli/releases/download/v0.5.0/aoj-cli_0.5.0_Linux_amd64.tar.gz"
-      sha256 "a8a77122f136a73d327daf04693ab624a8105778abc78e425e6e5b897624912b"
+      url "https://github.com/travelist/aoj-cli/releases/download/v0.5.1/aoj-cli_0.5.1_Linux_amd64.tar.gz"
+      sha256 "72eb214882310adff16dc4cce587170014b6a342df6bf5a8b00a0c9963352fae"
     end
   end
 
